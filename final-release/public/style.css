@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: 101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+#screen {
+    margin-right: 20px;
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 1);
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    width: 400px;
+    height: 400px;
+}
+
+#score-d {
+    height: 400px;
+    width: 200px;
+}
+
+.score-t {
+    color: white;
+    width: 200px;
+    text-align: left;
+    font-size: 0.7em;
+}
+
+.th {
+    border-bottom: solid 1px white;
+    font-weight: normal;
+}
+
+.tfoot {
+    border-top: solid 1px white;
+    font-weight: normal;
+}
+
+.myPlayer {
+    color: #80f040;
+}
+
+.login_screen {
+    position: absolute;
+    width: 300px;
+    padding: 30px;
+    top: 50%;
+    left: 44.5%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 28px 28px 28px 28px;
+    box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 1);
+}
+
+.login_name {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.login_input {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #d01050;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.login_input:focus {
+    width: 240px;
+    border-color: #3498db;
+}
+
+.login_button {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.login_button:hover {
+    background: #2ecc71;
+}
